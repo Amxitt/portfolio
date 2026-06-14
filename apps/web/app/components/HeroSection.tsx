@@ -1,8 +1,14 @@
 export default function HeroSection(){
     return         <div id="herosection" className="min-h-[800px] flex flex-col pt-8 ">
-          <div className="flex flex-col md:flex-row flex-1  p-4">
-                <div id="left-container" className="flex-1 flex items-center justify-center text-6xl">
-                 <div className="sm:text-3xl md:text-5xl leading-none">
+          <div className="flex flex-col md:flex-row flex-1 p-4 md:gap-42">
+                <div id="left-container" className="
+                    flex-1
+                    flex
+                    items-center
+                    justify-center
+                    text-center md:text-left
+                    ">
+                 <div className="text-3xl md:text-5xl leading-tight">
                     <div className="text-white">
                       Building backend systems,
                       <br />
@@ -14,7 +20,15 @@ export default function HeroSection(){
                     </div>
               </div>
 </div>
-    <div id="right-container"className="flex-1 flex-col flex items-center justify-center text-2xl mt-9">
+    <div id="right-container" className="
+flex-1
+flex
+flex-col
+items-center md:items-start
+justify-center
+text-lg md:text-2xl
+mt-12 md:mt-0
+">
                  <div className="space-y-6 text-white/80">
                   <div>
                         <h3 className="text-xl font-medium text-white">
@@ -58,7 +72,14 @@ export default function HeroSection(){
                     <div className="pt-6">
                         <p className="text-[13px]  md:text-sm uppercase tracking-wider text-white/50 flex justify-center">Backend</p>
                     
-                      <div className="flex gap-6 justify-center text-white/90 text-[16px]">
+                      <div className="
+                      flex
+                      flex-wrap
+                      gap-4 md:gap-6
+                      justify-center
+                      text-white/90
+                      text-sm md:text-base
+                      ">
                       <span>Nodejs</span>
                       <span>Express</span>
                       <span>TypeScript</span>
@@ -71,7 +92,14 @@ export default function HeroSection(){
                     <div className="pt-6">
                         <p className="text-[13px]  md:text-sm uppercase tracking-wider text-white/50 flex justify-center">Frontend</p>
                     
-                      <div className="flex gap-6 justify-center text-white/90 text-[16px]">
+                      <div className="
+flex
+flex-wrap
+gap-4 md:gap-6
+justify-center
+text-white/90
+text-sm md:text-base
+">
                       <span>React</span>
                       <span>NextJs</span>
                       <span>Tailwindcss</span>
@@ -81,7 +109,14 @@ export default function HeroSection(){
                   <div className="pt-6">
                         <p className="text-[13px]  md:text-sm uppercase tracking-wider text-white/50 flex justify-center">Devops</p>
                     
-                      <div className="flex gap-6 justify-center text-white/90 text-[16px]">
+                      <div className="
+flex
+flex-wrap
+gap-4 md:gap-6
+justify-center
+text-white/90
+text-sm md:text-base
+">
                       <span>AWS</span>
                       <span>Docker</span>
                       <span>Nginx</span>

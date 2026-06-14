@@ -8,7 +8,7 @@ import Reveal from "./components/Reveal";
 export default function Home() {
   return (
     <div className="min-h-screen bg-black text-white">
-      <main className="max-w-6xl mx-auto px-8 ">
+      <main className="max-w-6xl mx-auto px-4 md:px-8 ">
       
     <Topbar/>
     <Reveal>  <HeroSection/></Reveal>

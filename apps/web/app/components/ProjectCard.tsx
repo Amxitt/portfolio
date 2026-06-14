@@ -11,9 +11,26 @@ type PropType = {
 }
 
 export default function ProjectCard({title, description, highlights, techStack, imageURL, githubURL, LiveURL} : PropType){
-    return <div className="max-w-9xl  min-h-[400px] mt-4 flex">
-            <a href={LiveURL} className="group relative flex-1 overflow-hidden cursor-pointer rounded-xl
-    border border-white/10">
+    return <div className="
+max-w-9xl
+min-h-[400px]
+mt-4
+flex
+flex-col md:flex-row
+gap-6
+">
+            <a href={LiveURL} className="
+group
+relative
+w-full
+md:flex-1
+h-[240px]
+md:h-auto
+overflow-hidden
+cursor-pointer
+rounded-xl
+border border-white/10
+">
             
   <img
     src={imageURL}
@@ -35,10 +52,16 @@ group-hover:scale-105 "
     </div>
   </div>
 </a>
-            <div id="content of project" className="pl-5 flex flex-1 flex-col gap-2">
+            <div id="content of project" className="
+md:pl-5
+flex
+flex-1
+flex-col
+gap-2
+">
                 <a href={githubURL} className="group flex gap-2">
                     
-                    <h1 className="text-3xl">{title}</h1>
+                    <h1 className="text-2xl md:text-3xl">{title}</h1>
                     <ArrowIcon/>
                 
                 </a>
@@ -48,7 +71,11 @@ group-hover:scale-105 "
                 Highlights
                  {
                 highlights.map((highlight, index) => (
-                    <div key={highlight} className="flex gap-1 flex items-center">
+                    <div key={highlight} className="
+flex
+gap-1
+items-start
+">
                     <span className="text-neutral-500 min-w-[30px] p-2">
                         {String(index + 1).padStart(2, "0")}.
                     </span>

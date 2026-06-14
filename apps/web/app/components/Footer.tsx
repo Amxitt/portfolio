@@ -4,7 +4,7 @@ export default function Footer(){
     return <footer className="mt-40 border-t border-white/10">
   <div className="max-w-7xl mx-auto px-6 py-24">
 
-    <h2 className="text-7xl font-light tracking-tight">
+    <h2 className="text-4xl md:text-7xl font-light tracking-tight">
       Let's work together
     </h2>
 
@@ -21,9 +21,25 @@ export default function Footer(){
 
     <div className="border-t border-white/10 pt-8">
 
-      <div className="flex justify-between text-xs uppercase tracking-[0.3em] text-white/40">
+      <div className="
+flex
+flex-col md:flex-row
+gap-8
+md:gap-0
+justify-between
+items-center
+text-xs
+uppercase
+tracking-[0.3em]
+text-white/40
+">
 
-        <div className="flex gap-8">
+        <div className="
+flex
+flex-wrap
+justify-center
+gap-4 md:gap-8
+">
           <a href="https://github.com/Amxitt">Github</a>
           <a href="#">LinkedIn</a>
           <a href="mailto:me.amritt@gmail.com">Email</a>
