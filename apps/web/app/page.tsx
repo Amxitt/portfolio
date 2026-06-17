@@ -62,6 +62,7 @@ export default function Home() {
   
   githubURL="https://github.com/Amxitt/second-brain"
   imageURL="/projects/sb-3.png"
+  LiveURL="https://secondbrain-tau-ten.vercel.app/"
   />
   </Reveal>
 </div>
