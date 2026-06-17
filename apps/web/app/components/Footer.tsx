@@ -41,7 +41,7 @@ justify-center
 gap-4 md:gap-8
 ">
           <a href="https://github.com/Amxitt">Github</a>
-          <a href="#">LinkedIn</a>
+          <a href="https://www.linkedin.com/in/amritpal-singh-2146bb304/">LinkedIn</a>
           <a href="mailto:me.amritt@gmail.com">Email</a>
           <a href="/amrit-resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
         </div>
